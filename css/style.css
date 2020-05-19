@@ -1,0 +1,187 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.container{
+    width: 1170px;
+/* Cố định màn hình   */
+margin: auto;
+}
+/* header */
+.header-main{
+    display: flex;
+    margin-bottom: 5px;
+}
+.header-main .header_logo{
+    background-color: green;
+    Color: white;
+    text-align: Center;
+    width: 25%;
+    Height:50px;
+    padding-top: 10px ;
+}
+.header-main .header_search{
+    background-color: blue;
+    Color: white;
+    text-align: Center;
+    width: 50%;
+    Height:50px;
+    padding-top: 10px ;
+}
+.header-main .header_mxh{
+    background-color: red;
+    Color: white;
+    text-align: Center;
+    width: 25%;
+    Height:50px;
+    padding-top: 10px ;
+}
+/* nav */
+nav{
+   
+    background-color: pink;
+    margin-bottom: 5px;
+   
+}
+nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: None;
+    justify-content: Center;
+    background-color: pink;
+
+}
+nav ul li{
+    position: relative;
+}
+nav ul li a{
+padding: 10px 50px;
+text-decoration: None;
+display: block;
+background-color: pink;
+
+}
+nav ul li a:hover{
+    Color: red;
+    background-color: yellow;
+}
+nav ul li a:active{
+    Color: red;
+    background-color: purple;
+}
+nav ul li a:focus{
+    Color: red;
+    background-color: orange;
+}
+/* section */
+.section-main{
+    display: flex;
+  
+}
+.section-main .left{
+    background-color: red;
+    width: 25%;
+    Height:500px;
+
+
+}
+.section-main.left ol{
+    list-style: upper-alpha;
+}
+.section-mainn .left ol li a{
+    color: white;
+    text-align: Center;
+
+}
+.section-main .center{
+   
+    width: 50%;
+    text-align: Center;
+    margin-left: 5px;
+    Height: 500px;
+    
+}
+.section-main .center img{
+    max-width: 100%;
+}
+   
+.section-main .right{
+ 
+    width: 25%;
+    text-align: Center;
+    Height:500px
+    
+}
+.section-main .right .hotline{
+ 
+   max-width: 100%;
+}
+.section-main .right .search{
+ 
+ text-align: center;
+ margin-bottom: 10px;
+    
+}
+.section-main .right .video{
+ 
+    text-align: Center;
+    
+}
+.section-main .right .video iframe{
+ 
+ width: 100%;
+ Height: 300px;
+ padding:10px
+
+}
+/* footer */
+.footer-main{
+    display: flex;
+    height: 40px;
+    margin-top: 5px;
+}
+.footer-main .footer_logo{
+    background-color: green;
+    width: 25%;
+    text-align: Center;
+    Color: white;
+    padding-top: 10px;
+}
+.footer-main .footer_logo{
+    background-color: green;
+    width: 25%;
+    text-align: Center;
+    Color: white;
+    padding-top: 10px;
+}
+.footer-main .information_left{
+    background-color: blue;
+    width: 25%;
+    text-align: Center;
+    Color: white;
+    padding-top: 10px;
+}
+.footer-main .information_right{
+    background-color: yellow;
+    width: 25%;
+    text-align: Center;
+    Color: red;
+    padding-top: 10px;
+}
+.footer-main .footer_time{
+    background-color: red;
+    width: 25%;
+    text-align: Center;
+    Color: white;
+    padding-top: 10px;
+}
+/* copy_right */
+#copy_right{
+    background-color: Black;
+    Color:red;
+    Height:40px;
+    text-align: Center;
+}

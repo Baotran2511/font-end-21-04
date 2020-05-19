@@ -1,0 +1,22 @@
+@media(max-width:767px){
+    .header-main,
+    .section-main,
+    .footer-main{
+        display: block;
+    }
+    
+.container,
+.header-main .header_logo,
+.header-main .header_search,
+.header-main .header_mxh,
+.section-main .left,
+.section-main .center,
+.section-main .right,
+.footer-main .footer_logo,
+.footer-main .information_left,
+.footer-main .information_right,
+.footer-main .footer_time
+    {
+    width: 100%;
+    }    
+}
